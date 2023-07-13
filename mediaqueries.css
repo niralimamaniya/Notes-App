@@ -1,0 +1,23 @@
+@media screen and (max-width: 1245px) and (min-width: 980px) {
+    .title{
+        left: 16rem; 
+    }
+}
+@media screen and (max-width: 980px) and (min-width: 880px) {
+    .title{
+        left: 10rem;
+    }
+}
+@media screen and (max-width: 880px) and (min-width: 475px) {
+    .title{
+        left: 4rem;
+        font-size: 28px;  
+    }
+}
+@media screen and (max-width: 475px) and (min-width: 220px) {
+    .title{
+        left: 3rem;
+        right:1rem;
+        font-size: 23px;  
+    }
+}

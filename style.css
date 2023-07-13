@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+@font-face {
+    font-family: Zeyada-Regular;
+    src: url(./Zeyada/Zeyada-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: ChelaOne-Regular;
+    src: url(./Chela_One/ChelaOne-Regular.ttf) format(truetype);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eea1b453;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10rem;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.title{
+    position: absolute;
+    top: 1rem; 
+    left: 24rem;
+    font-size: 29px;  
+}
+.heading{
+    font-family: "ChelaOne-Regular";
+    letter-spacing: 2px;
+}
+.slogan{
+    font-family: "Zeyada-Regular";
+}
+.add {
+    background-color: #353535f2;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    position: absolute;
+    top: 7rem;
+    right:4rem;
+    font-size: 16px;
+    
+}
+.note {
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 0 10px 4px rgba(10, 10, 10, 0.089);
+    margin: 20px;
+    height: 342px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: #baf19cc7;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .main {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+.main p {
+    margin: 0;
+    padding: 10px 12px;
+}
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    width:100%;
+    padding: 4px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+.note .hidden {
+    display: none;
+}
+
